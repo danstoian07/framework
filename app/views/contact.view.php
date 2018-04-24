@@ -3,7 +3,7 @@
     <h1>Contact Us</h1>
 
     <?php
-    	if($message) {
+    	if(isset($message)) {
     		echo $message;
     	}
     ?>
